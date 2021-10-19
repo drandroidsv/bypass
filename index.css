@@ -1,7 +1,9 @@
-html, body, #container
+div#container
 {
-   width: 100%;
-   height: 100%;
+   width: 610px;
+   position: absolute;
+   margin: 0 auto 0 auto;
+   text-align: left;
 }
 body
 {
@@ -12,7 +14,7 @@ body
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
-   padding: 0;
+   text-align: center;
 }
 a
 {
@@ -104,8 +106,8 @@ input:focus, textarea:focus, select:focus
    height: 100%;
    margin: 0;
    padding: 0;
-   -webkit-animation: Marquee1-marquee 5000ms linear infinite;
-   animation: Marquee1-marquee 5000ms linear infinite;
+   -webkit-animation: Marquee1-marquee 2000ms linear infinite;
+   animation: Marquee1-marquee 2000ms linear infinite;
 }
 @-webkit-keyframes Marquee1-marquee
 {
