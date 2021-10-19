@@ -106,8 +106,8 @@ input:focus, textarea:focus, select:focus
    height: 100%;
    margin: 0;
    padding: 0;
-   -webkit-animation: Marquee1-marquee 2000ms linear infinite;
-   animation: Marquee1-marquee 2000ms linear infinite;
+   -webkit-animation: Marquee1-marquee 8000ms linear infinite;
+   animation: Marquee1-marquee 8000ms linear infinite;
 }
 @-webkit-keyframes Marquee1-marquee
 {
